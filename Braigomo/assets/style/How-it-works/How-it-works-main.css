@@ -1,0 +1,45 @@
+.content {
+  margin: 50px 85px;
+}
+.content-text {
+  margin: 25px 0px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.content-txt {
+  margin-bottom: 20px;
+}
+/* .content-main {
+  margin: 50px 150px;
+  flex-direction: row;
+  display: flex;
+} */
+
+.content-left {
+  position: relative;
+  left: 5%;
+}
+.content-right {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.neuron-img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 91%;
+  left: 10%;
+  margin-bottom: 10px;
+}
+.text-dark {
+  display: block;
+  font-size: 20px;
+  margin-top: 40px;
+}
+@media (min-width: 500px) {
+  .content-main {
+    flex-direction: column;
+  }
+}
